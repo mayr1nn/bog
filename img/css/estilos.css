@@ -1,38 +1,93 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #d5eeff;
-    background-color: #005689;
+
+#body {
+    background-color:#f48fb1 ;
+    background-image: url(../img/fondo-pagina.jpg);
+}
+
+#zona-encabezado {
+    width: 75%;
+    background-color: #f06292 ;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #ad1457
 }
 
-#contenedor {
-    width: 80%;
-    border: 2px solid #d5eeff;
-    padding: 20px;
-    margin-top: 10px;
-    background-color: #007cb9;
+.texto-encabezado {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    color: #880e4f ;
 }
 
-#menu {
-    color: #005689;
-    background-color: #ff895d;
-    padding: 10px;
-    border: 1px solid #d5eeff;
+#zona-imagenes {
+    width: 75%;
+    background-color:#f6a9ce;
+    text-align: center;
 }
 
-#menu a,
+#zona-cuerpo {
+    width: 75%;
+    color: #f48fb1 ;
+    background-color: #f06292;
+}
+
+.texto-cuerpo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+
+#zona-final {
+    width: 75%;
+    color: rgb(255, 96, 162);
+    background-color: #880e4f;
+}
+
+.texto-final {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgba(46, 34, 34, 0.884);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #132743;
+     background-color: #edacf3;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    #contenedor {
+         width: 80%;
+         border: none;
+          padding: 20px;
+          margin-top: 10px;
+           background-color:#fea5ad
+    }
+    
+    #menu {
+        color: black;
+        background-color:#e2586d;
+        padding: 10px;
+        border: none;
+    }
+    
+    #menu a,
+
 #menu a:visited {
-    color: #005689;
+    color:#F9B9C3;
     text-decoration: none;
     padding: 5px;
 }
 
 #menu a:hover {
-    color: white;
-    background-color: #007cb9;
+    color:white;
+    background-color: #f6a9ce;
     padding: 5px;
 }
 
@@ -42,15 +97,14 @@ h1 {
 
 img {
     height: 200px;
-    border: 1px solid #d5eeff;
+    border: none;
     float: right;
 }
 
 #final {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.75em;
-    color: #005689;
-    background-color: #d5eeff;
-    padding: 10px;
+    color: #691a40;
+    background-color:#fde3f0;
+    padding: 10px
 }
-
